@@ -1,0 +1,53 @@
+/* yorum satırı */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+  
+  body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 20px; 
+    background-color: rgb(142, 173, 29)
+  }
+
+  *{
+    box-sizing: border-box;
+
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  input,textarea{
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px,30px;
+    width: 100%;
+  }
+
+  button{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px.30px;
+
+  }
+
+  .header{
+    display: flex; /* default ( varsayılan ayar) olarak row yapar flex-direction yazmaya gerek yok */ 
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    
+  }
+
+  .footer{
+    display: flex;
+    justify-content: space-around;
+    border-top: 4px dotted black;
+    color: crimson;
+  }
