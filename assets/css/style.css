@@ -54,44 +54,41 @@ button {
 .footer {
     display: flex;
     justify-content: space-around;
-    border-top: 4px dotted black;
-    color: black;
+    border-top: 5px dotted darkblue;
+    color: rgb(19, 67, 116);
     padding: 30px 20px;
     margin-top: 50px;
     font-weight: 600;
-
 }
 
-.menu a {
-    font-weight: 800;
-    font-size: 25px;
 
+.menu a {
+    font-weight:800;
+    font-size: 22px;
 }
 
 .menu a:visited {
-    color: white;
-
+    color:antiquewhite;
 }
 
 .menu a:hover {
-    color: rgb(226, 131, 43);
+    color:chocolate;
 }
 
+.content  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 50px;
+    
+}
 .content .about {
     display: flex;
     align-items: center;
     padding: 20px;
     gap: 50px;
     width: 60%;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    gap: 50px;
-
 }
 
 .about img {
